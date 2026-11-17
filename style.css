@@ -74,3 +74,15 @@ a:focus-visible,.btn:focus-visible{outline:3px solid var(--deep);outline-offset:
 .lgc .lg{top:0!important;height:100%!important;aspect-ratio:auto!important}
 .lgc .lg .base{width:100%!important;height:100%!important;object-fit:contain!important;clip-path:none!important}
 .lgc .lg .sunb,.lgc .lg .ly,.lgc .lg .leaf{display:none!important}
+
+
+/* Reference layout: clear brand logo in the header and a larger centered hero logo */
+.logo img{height:100px;width:auto;max-width:min(320px,42vw);object-fit:contain}
+.hlogo{width:min(520px,88%)!important;max-height:390px;object-fit:contain;margin:28px auto 34px}
+.hero{padding-top:46px}
+.hero h1.big{margin-top:8px!important}
+@media(max-width:600px){
+  .logo img{height:70px;max-width:46vw}
+  .hlogo{width:min(420px,92%)!important;margin:20px auto 26px}
+  .hero{padding-top:30px}
+}
