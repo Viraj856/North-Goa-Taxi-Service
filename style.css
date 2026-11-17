@@ -110,3 +110,8 @@ header.wrap .logo img{display:block;margin-left:auto;margin-right:auto}
 /* Slightly enlarge the top header logo on desktop and mobile */
 header.wrap nav .logo img{height:112px!important;max-width:min(360px,48vw)!important}
 @media(max-width:600px){header.wrap nav .logo img{height:78px!important;max-width:min(340px,82vw)!important}}
+
+/* Final visible-size override for the top header logo */
+header.wrap nav .logo{flex:0 0 100%;}
+header.wrap nav .logo img#navlogo{height:126px!important;width:auto!important;max-width: min(420px, 70vw)!important;min-height:126px!important;object-fit:contain!important;}
+@media(max-width:600px){header.wrap nav .logo img#navlogo{height:88px!important;min-height:88px!important;max-width:86vw!important;}}
