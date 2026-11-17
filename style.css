@@ -93,7 +93,8 @@ a:focus-visible,.btn:focus-visible{outline:3px solid var(--deep);outline-offset:
 .hero>div{width:100%;max-width:1100px;margin-left:auto!important;margin-right:auto!important}
 .hero h1.big{display:block;width:100%;text-align:center!important;margin:0 auto 0!important}
 
-/* Centre the header logo */
-nav{justify-content:center}
-.logo{display:flex;justify-content:center;width:100%}
-.logo img{margin:0 auto}
+/* Centre the header logo across the full browser width */
+header.wrap{width:100%;max-width:none;box-sizing:border-box}
+header.wrap nav{display:flex;width:100%;justify-content:center;align-items:center}
+header.wrap .logo{display:flex;justify-content:center;align-items:center;width:100%;margin:0 auto}
+header.wrap .logo img{display:block;margin-left:auto;margin-right:auto}
