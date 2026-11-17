@@ -86,3 +86,9 @@ a:focus-visible,.btn:focus-visible{outline:3px solid var(--deep);outline-offset:
   .hlogo{width:min(420px,92%)!important;margin:20px auto 26px}
   .hero{padding-top:30px}
 }
+
+
+/* Centre the Goa sightseeing hero after removing the centre logo */
+.hero{text-align:center!important;display:block!important}
+.hero>div{width:100%;max-width:1100px;margin-left:auto!important;margin-right:auto!important}
+.hero h1.big{display:block;width:100%;text-align:center!important;margin:0 auto 0!important}
