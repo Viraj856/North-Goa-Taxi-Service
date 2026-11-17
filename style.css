@@ -128,3 +128,21 @@ header.wrap nav .logo img#navlogo{height:126px!important;width:auto!important;ma
   header.wrap .hero{padding-top:8px!important;padding-bottom:34px!important}
   header.wrap .hero h1.big{margin-top:0!important}
 }
+
+/* Definitive mobile header-to-heading spacing */
+@media screen and (max-width:600px){
+  header.wrap{padding-top:8px!important}
+  header.wrap nav{padding:0!important;margin:0!important;min-height:0!important}
+  header.wrap nav .logo{padding:0!important;margin:0 auto!important;line-height:0!important}
+  header.wrap nav .logo img#navlogo{
+    height:104px!important;min-height:104px!important;
+    width:auto!important;max-width:88vw!important;
+    display:block!important;margin:0 auto!important;
+  }
+  header.wrap > .hero{
+    padding:0 0 30px!important;
+    margin:0!important;
+  }
+  header.wrap > .hero > div{margin:0 auto!important;padding:0!important}
+  header.wrap > .hero h1.big{margin:0 auto!important;padding:0!important}
+}
