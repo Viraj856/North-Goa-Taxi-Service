@@ -115,3 +115,16 @@ header.wrap nav .logo img{height:112px!important;max-width:min(360px,48vw)!impor
 header.wrap nav .logo{flex:0 0 100%;}
 header.wrap nav .logo img#navlogo{height:126px!important;width:auto!important;max-width: min(420px, 70vw)!important;min-height:126px!important;object-fit:contain!important;}
 @media(max-width:600px){header.wrap nav .logo img#navlogo{height:88px!important;min-height:88px!important;max-width:86vw!important;}}
+
+
+/* Mobile header spacing and logo size refinement */
+@media(max-width:600px){
+  header.wrap nav{padding-top:8px!important;padding-bottom:0!important}
+  header.wrap nav .logo img#navlogo{
+    height:108px!important;
+    min-height:108px!important;
+    max-width:90vw!important;
+  }
+  header.wrap .hero{padding-top:8px!important;padding-bottom:34px!important}
+  header.wrap .hero h1.big{margin-top:0!important}
+}
